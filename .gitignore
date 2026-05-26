@@ -1,0 +1,16 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+chromadb/
+*.mp3
+*.wav
+*.sqlite3
+modules/__pycache__/
+debug_titan.txt
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
