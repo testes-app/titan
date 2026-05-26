@@ -92,11 +92,7 @@ C:\Python314\python.exe -m playwright install chromium
 
 ### Configurar a chave da API
 
-No arquivo `titan.py`, localize a linha:
-```python
-_gemini_client = genai.Client(api_key="SUA_CHAVE_AQUI")
-```
-Substitua `SUA_CHAVE_AQUI` pela sua chave do [Google AI Studio](https://aistudio.google.com).
+A chave de API é lida automaticamente do arquivo `.env`. Certifique-se de ter copiado o arquivo `.env.example` para `.env` e inserido sua chave do [Google AI Studio](https://aistudio.google.com).
 
 ---
 
